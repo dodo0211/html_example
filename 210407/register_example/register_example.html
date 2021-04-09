@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register_example_style.css?after3">
+    <script src="./js/register.js"></script>
+    <title>사이트 이용정보 입력</title>
+</head>
+<body>
+    <h2>회원가입</h2>
+    <table>
+        <tr>
+            <th>사용자id</th>
+            <td>
+                <span>영문자, 숫자, _만 입력 가능. 최소 3자 이상 입력하세요</span> <br>                
+                <input type="text" name="id" id="idInput" class="essential_form" size="20" value="" onkeyup="idCheck()">
+                <input type="button" value="id중복확인">
+                <span id="idCorrect" class="idCorrect">id 입력공간</span>
+            </td>
+        </tr>
+        <tr>            
+            <th>비밀번호</th>
+            
+            <td>
+                <span> 영문,숫자,특수문자를 포함하여 6~12자를 입력하세요</span> <br>                
+                <input type="password" name="password" id="password" class="essential_form" size="20" onkeyup="pwCheck()">          
+                <span id="pwCorrect">비밀번호 입력공간</span>
+            </td>
+        </tr>
+        <tr>
+            <th>비밀번호 확인</th>
+            <td><input type="password" name="password" id="password_ok" class="essential_form" size="20" onkeyup="pwCheck2()">
+                <span id="pwCorrect2">비밀번호 확인공간</span>
+            </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

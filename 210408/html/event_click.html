@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+        function changeMessage(){
+            var target_data = document.getElementById('target_data');
+            target_data.innerHTML = "자바스크립트를 배웁시다."
+        }
+        function changeCancle(){
+            var target_data = document.getElementById('target_data');
+            target_data.innerHTML = "자바스크립트 말고 자바나 배웁시다."
+        }
+
+    </script>
+</head>
+<body>
+    <h1>이벤트 클릭 핸들러 처리</h1>
+    <p id="target_data">여기에 글자가 보입니다.</p>
+    <button onclick="changeMessage()">이벤트 처리</button>
+    <button onclick="changeCancle()">이벤트 취소</button>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register_style.css?after2">
+    <title>사이트 이용정보 입력</title>
+</head>
+<>
+    <h2>회원가입</h2>
+    <table>
+        <tr>
+            <th>사용자id</th>
+            <td>
+                <span>영문자, 숫자, _만 입력 가능. 최소 3자 이상 입력하세요</span> <br>
+                <input type="text" name="id" id="id" class="essential_form" size="15">
+                <input type="button" value="id중복확인">
+            </td>
+        </tr>
+        <tr>            
+            <th>비밀번호</th>
+            
+            <td>
+                <span> 영문,숫자,특수문자를 포함하여 6~12자를 입력하세요</span> <br>
+                <input type="password" name="password" id="password" class="essential_form" size="15">          
+            </td>
+        </tr>
+        <tr>
+            <th>비밀번호 확인</th>
+            <td><input type="password" name="password" id="password" class="essential_form" size="15"></td>
+        </tr>
+
+        <tr>
+            <th>이름</th>
+            <td><input type="text" name="name" id="name" class="essential_form" size="15"></td>
+        </tr>
+        <tr>
+            <th>닉네임</th>
+            <td>
+                <span>공백없이 한글, 영문, 숫자만 입력가능 (한글2자, 영문4자 이상)</span> <br>
+                <span>닉네임 변경 후 1일 동안 변경 불가</span> <br>
+                <input type="text" name="nickname" id="nickname" class="essential_form" size="15">
+                <input type="button" value="중복 확인">
+            </td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td><input type="email" name="email" id="email" class="essential_form" size="30"></td>
+        </tr>
+        <tr>
+            <th>가입경로</th>
+            <td>
+                <input type="radio" name="rdo_internet" id="rdo_internet">인터넷검색
+                <input type="radio" name="rdo_banner" id="rdo_banner">배너광고
+                <input type="radio" name="rdo_article" id="rdo_article">관련기사
+                <input type="radio" name="rdo_lookPage" id="rdo_lookPaget">홈페이지참조
+                <input type="radio" name="rdo_acquaintance" id="rdo_acquaintance">지인소개
+                <input type="radio" name="rdo_etc" id="rdo_etc">기타 
+            </td>
+        </tr>
+        <tr>
+            <th>전화번호</th>
+            <td><input type="tel" name="tel" id="tel" size="15"></td>
+        </tr>
+        <tr>
+            <th>휴대폰번호</th>
+            <td><input type="tel" name="phone" id="phone" class="essential_form" size="15"></td>
+        </tr>
+        <tr>
+            <th>생년월일</th>
+            <td><input type="datetime-local" name="birth" id="birth"></td>
+        </tr>
+        <tr>
+            <th>주소검색</th>
+            <td>
+                <input type="text" name="searchAddress" id="searchAddress" class="essential_form">
+                <input class="address" type="button" value="주소 검색" size="15"> <br>
+                <input class="address" type="text" name="basicAddress" id="basicAddress" class="essential_form" size="30"> 기본주소 <br>
+                <input class="address" type="text" name="detailAddress" id="detailAddress" class="essential_form" size="30"> 상세주소 <br>
+                <input type="text" name="referenceAddress" id="referenceAddress" size="30"> 참고항목 <br>
+            </td>
+        </tr>
+    </table>
+
+    <h3>기타 개인설정</h3>
+    <table>
+        <tr>
+            <th>카카오톡 메세지</th>
+            <td>
+                <input type="checkbox" name="kakao" id="kakao"> 
+                카카오톡 메세지를 받겠습니다. <br>
+            </td>
+        </tr>
+        <tr>
+            <th>메일링 서비스</th>
+            <td>
+                <input type="checkbox" name="email" id="email"> 
+                정보 메일을 받겠습니다. <br>
+            </td>
+        </tr>
+        <tr>
+            <th>SNS 수신여부</th>
+            <td>
+                <input type="checkbox" name="message" id="message"> 
+                문자메세지를 받겠습니다. <br>
+            </td>
+        </tr>
+        <tr>
+            <th>정보공개</th>
+            <td>
+                <input type="checkbox" name="openInfo" id="openInfo"> 
+                다른 회원이 나의 정보를 볼 수 있도록 합니다. <br>
+            </td>
+        </tr>
+    </table>
+
+    <input type="submit" value="회원가입">
+    <input type="reset" value="취소">
+
+</body>
+</html>

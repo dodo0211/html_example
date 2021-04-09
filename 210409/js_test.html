@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML JS</title>
+
+    <script>
+        // 함수는 불렀을 때 의미가 있기 때문에, 지금 찾는 게 아님 
+        function demo_change(){
+            var demoObject = document.getElementById('demo');
+            demoObject.innerHTML = "자바스크립트를 배워보시죠";
+            return true;
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+	<h1>자바스크립트를 이용한 문장 삽입</h1>
+
+	<p id="demo">여기가 내용이 입력할 부분이다.</p>
+	
+    <button onclick="demo_change()">여기를 클릭하면 내용이 변경됩니다.</button>
+
+</body>
+
+</html>

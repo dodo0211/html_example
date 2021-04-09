@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>안드로이드_웹앱_개발과정</title>
+        <link rel="stylesheet" href="sytest.css?after3">
+    </head>
+    <body>
+        <ul class="nav">
+            <li class="nav_menu">바나나</li>
+            <li class="nav_menu">딸기</li>
+            <li class="nav_menu">포도</li>
+
+        </ul>
+
+        <!-- table>(tr>td*9)*3 -->
+        <table class="table_form">
+            <tr>
+                <!-- tr 헤더라는 의미로 th -->
+                <th>참치</th>
+                <th>고래</th>
+                <th>날치</th>
+            </tr>
+            <tr>
+                <td>상어</td>
+                <td>문어</td>
+                <td>꽁치</td>
+            </tr>
+            <tr>
+                <td>오징어</td>
+                <td>고등어</td>
+                <td>돌고래</td>
+            </tr>
+        </table>
+    </body>
+
+    <body>
+        <!-- table>(tr>td*9)*3 -->
+        <table class="table_form">
+            <tr>
+                <th>참치</th>
+                <th>고래</th>
+                <th>날치</th>
+            </tr>
+            <tr>
+                <td colspan="3">상어 문어 꽁치</td>              
+            </tr>
+            <tr>
+                <td colspan="2">오징어 고등어</td>
+                <td>돌고래</td>
+            </tr>
+            <tr>
+                <td rowspan="2">오징어1 오징어2</td>
+                <td>고등어1</td>
+                <td rowspan="2">돌고래1 돌고래2</td>
+            </tr>
+            <tr>
+                <td>고등어2</td>
+            </tr>
+            
+        </table>
+
+    </body>
+
+    <!-- table>(tr>td*3)*3 -->
+    <table table_form>
+        <table>
+            <tr>
+                <td colspan="5">1</td>                
+            </tr>
+            <tr>
+                <td colspan="5">2</td>            
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td rowspan="3">4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                
+                
+
+                <td colspan="2">8</td>
+
+                <td>9</td>
+            </tr>
+            <tr>
+                
+                
+                <td colspan="3">10</td>
+             
+            </tr>
+        </table>
+    </table>
+</body>
+
+<body>
+    <div class="header">
+        <span class="header_content">HEADER AREA</span>    
+    </div>
+
+    <div class="nav">
+        <div class="nav_left"> <span>nav area</span> </div>
+        <div class="nav_right"> <span>section area</span> </div>
+    </div>
+
+    <div class="footer">
+        <span>footer area</span>
+    </div>
+    
+</body>
+
+</html>

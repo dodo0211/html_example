@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/98f04cd3f2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav_style.css">
+    <script src="../js/nav.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav.navbar>div.navbar_logo+div.navbar_menu+div.navbar_icons -->
+    <nav class="navbar">
+        <!-- 네비게이션 로고 -->
+        <div class="navbar_logo">
+            <i class="fas fa-keyboard"></i>
+            <a href="https://github.com/dodo0211">DreamCording</a>
+        </div>
+
+        <!-- 네비게이션 메뉴 -->
+        <!-- ul>(li>a)*5 -->
+        <!-- div도 블록, ul도 블럭이니까 둘 중 하나만 써도 됨 -->
+        <ul class="navbar_menu" class="active">
+            <li><a href="#">C_LAN</a></li>
+            <li><a href="#">JAVA</a></li>
+            <li><a href="#">ANDROID</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">PHP</a></li>
+        </ul>        
+
+        <!-- 네비게이션 아이콘 -->
+        <ul class="navbar_icons">
+            <li><a href="#"></a><i class="fab fa-facebook-square"></i></li>
+            <li><a href="#"></a><i class="fab fa-twitter-square"></i></li>
+        </ul>
+
+        <!-- 햄버거바 -->
+        <a href="#" class="navbar_toggle" id="navbar_button"> <i class="fas fa-bars"></i> </a>
+        
+    </nav>
+</body>
+
+</html>

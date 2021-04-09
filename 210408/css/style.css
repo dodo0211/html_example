@@ -1,0 +1,42 @@
+/* 폭과 높이는 블럭에게만 적용, 인라인에는 적용되지 않음 */
+/* 정렬방식은 인라인, 폭과 높이를 받기 위해 블럭 */
+/* display: inline-block; */
+
+body {
+  /* 처음에 8px의 오차를 가지고 있음 */
+  margin: 0;
+}
+
+div {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: royalblue;
+  border: 1px solid black;
+}
+
+section.container {
+  background: blueviolet;
+  left: 40px;
+  top: 40px;
+  /* default position */
+  /* position: static; */
+  /* 상대적 position */
+  /* 자신이 기준 */
+  /* position이 디폴트가 static이기 때문에 position을 relative로 바꿔줘야 함 */
+  position: relative;
+}
+
+div.item {
+  background-color: cadetblue;
+  left: 30px;
+  top: 30px;
+  /* 자신을 가지고 있는 부모인 section의 기점(0, 0)을 기준으로 */
+  /* position: absolute; */
+
+  /* 전체 다큐먼트를 기점으로 옮김, 스크롤을 내려도 그 자리에 멈춰있음 */
+  /* position: fixed; */
+
+  /* 원래 가만히 있다가 스크롤을 내려서 사라질 때쯤, 정해준 위치에 붙어있음 */
+  position: sticky;
+}

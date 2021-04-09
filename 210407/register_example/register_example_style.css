@@ -1,0 +1,42 @@
+h2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th {
+  border: 1px solid black;
+  border: left 1px solide white;
+  background: rgb(165, 163, 163);
+  width: 150px;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid black;
+  border-right: 1px solide white;
+  width: 800px;
+  padding: 10px;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solide rgb(114, 114, 114);
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+.idCorrect {
+  color: red;
+}
+
+.essential_form {
+  background-image: url(./wrest.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+}

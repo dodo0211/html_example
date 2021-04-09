@@ -1,0 +1,82 @@
+header {
+  height: 60px;
+  width: 1000px;
+  background: rgb(179, 174, 174);
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+nav {
+  height: 40px;
+  width: 1000px;
+  background: rgb(76, 76, 170);
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+main {
+  height: 400px;
+  width: 1000px;
+  background: rgb(238, 128, 128);
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.mainSection {
+  width: 900px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: cadetblue;
+  margin: 0 auto;
+  /* 기준측 정렬 */
+  display: flex;
+  /* 보조축 정렬 */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.m_s_t_article {
+  width: 45%;
+  /* 퍼센테이지는 부모를 따르는 것 */
+  height: 90%;
+  border: 1px solid black;
+  text-align: center;
+  /* line-height: 180px; */
+}
+
+.m_s_t_article1 {
+  width: 45%;
+  /* 퍼센테이지는 부모를 따르는 것 */
+  height: 90%;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.figure {
+  width: 90%;
+  height: 70%;
+  border: 1px solid black;
+}
+
+div.figcaption {
+  width: 90%;
+  height: 20%;
+  border: 1px solid black;
+}
+
+footer {
+  height: 50px;
+  width: 1000px;
+  background: rgb(179, 174, 174);
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+/* * {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */

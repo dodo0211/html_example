@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+div.container {
+  background-color: bisque;
+  /* vh는 보이는 거 */
+  height: 100vh;
+  display: flex;
+  /* column 반대쪽으로 표시 */
+  flex-direction: row;
+  /* 플렉스는 반응형, 양옆 끝에 공백을 주고 아이템 간의 가격을 띄움 */
+  /* justify-content: space-around; */
+  /* 자신의 감당부분이 아니면밑에 줄로 나려감 */
+
+  /* nowarp은 자신이 버틸 수 있을 때까지만 줄여주고 더 이상 줄여주지 않음 */
+  flex-wrap: wrap;
+  /* 한번에 적어줄 수 있음 */
+  /* flex-flow: row nowrap; */
+
+  /* 기준측 */
+  justify-content: center;
+  /* 보조축 */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+
+  /* 기준선으로 정렬 */
+  align-items: baseline;
+
+  /* warp으로 했을 때, 줄 간의 공백을 조절해 줌 */
+  align-content: center;
+}
+
+div.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+div.item1 {
+  background-color: violet;
+}
+div.item2 {
+  background-color: aqua;
+}
+div.item3 {
+  background-color: coral;
+}
+div.item4 {
+  background-color: cadetblue;
+}
+div.item5 {
+  background-color: darkgoldenrod;
+}
+div.item6 {
+  background-color: darkseagreen;
+}
+div.item7 {
+  background-color: firebrick;
+}
+div.item8 {
+  background-color: hotpink;
+}
+div.item9 {
+  background-color: blue;
+}
+div.item10 {
+  background-color: darkolivegreen;
+}
+
+div.unrule {
+  position: absolute;
+  right: 10px;
+}

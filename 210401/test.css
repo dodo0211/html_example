@@ -1,0 +1,16 @@
+body {
+  background-color: coral;
+}
+
+#h1_css {
+  background-color: bisque;
+  color: violet;
+
+  /* em: 원래 사이즈의 1.5배 */
+  font-size: 1.5em;
+  text-align: center;
+  height: 20em;
+  line-height: 20em;
+  margin-left: 300px;
+  margin-right: 300px;
+}

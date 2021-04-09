@@ -1,0 +1,129 @@
+/* #nav {
+  background-color: rgb(46, 91, 175);
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  margin: 20px 20px 0 20px;
+} */
+
+/* #nav:hover {
+  background-color: wheat;
+  border: 3px dotted black;
+} */
+
+/* button {
+  margin-right: 20px;
+} */
+
+/* 버튼에 마우스가 지나가면 */
+/* button 이랑 콜론, 콜론이랑 hover 사이 띄어쓰기 금지 */
+/* button:hover {
+  background: darkgreen;
+  color: white;
+} */
+
+/* .click_item {
+  background: chartreuse;
+  text-decoration: none;
+  margin: 10px 20px;
+  display: block;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+} */
+
+/* .click_item:hover {
+  text-decoration: underline;
+  border: 2px double red;
+} */
+
+/* .title {
+  text-align: center;
+} */
+
+/* .img_map {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+} */
+
+/* .nav_button {
+  display: block;
+  background: cornflowerblue;
+  margin: 20px auto;
+} */
+
+/* .nav {
+  display: flex; */
+/* text_aline 일반 */
+/* justify-content는 flex에서만 */
+/* justify-content: center;
+  list-style-type: none;
+} */
+
+/* .nav_menu {
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px 15px;
+} */
+
+/* .nav_menu:hover {
+  background: black;
+  color: aliceblue;
+} */
+
+/* .nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+} */
+
+/* .nav_menu {
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 5px dotted black;
+  padding: 10px 15px;
+} */
+
+/* .nav_menu:hover {
+  background: black;
+  color: blanchedalmond;
+} */
+
+.table_form,
+th,
+td {
+  outline: 1px solid black;
+  outline-offset: -1px;
+  border-collapse: collapse;
+}
+
+.table_form {
+  margin: 20px auto;
+}
+
+th {
+  background-color: rgb(142, 150, 150);
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+td:hover {
+  background: black;
+  color: aliceblue;
+}
+
+/* * {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
