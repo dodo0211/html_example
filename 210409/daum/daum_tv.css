@@ -1,0 +1,161 @@
+/* * {
+  font-size: 8px;
+} */
+
+/* 헤더 */
+header {
+  display: flex;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+header > div > span {
+  border: 1px solid black;
+}
+
+#logo {
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+
+#search {
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 200px;
+}
+
+/* 네비게이션 */
+nav {
+  margin-left: 300px;
+  padding: 10px;
+}
+
+nav > span {
+  border: 1px solid black;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+/* 메뉴 */
+#menu {
+  margin: 0px 300px 50px 300px;
+  border: 1px solid black;
+}
+
+#menu2 {
+  margin: 0px 300px 300px 300px;
+}
+
+/* 메뉴 속 채널 리스트 전체 */
+.list_channel {
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 체널 리스트 */
+li {
+  border: 1px solid black;
+}
+
+/* 인기 오리지널 */
+/* 인기 오리지널 제목 */
+#favorite_origin_title {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+/* 인기 오리지널 span div */
+#favorite_origin {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 인기 오리지널 span */
+.favorite_origin {
+  padding: 20px;
+  list-style: none;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* 인기 라이브 */
+/* 인기 라이브 제목 */
+#favorite_live_title {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+/* 인기 라이브 span div */
+#favorite_live {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 인기 라이브 span */
+.favorite_live {
+  padding: 20px;
+  list-style: none;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* 컨텐트 */
+/* 컨텐트 제목*/
+#content_title {
+  font-weight: bold;
+}
+
+/* 메뉴 컨텐트 전체 */
+#menu_content {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* 메뉴 컨텐트 span - 제목 포함 */
+.content {
+  padding: 30px;
+  list-style: none;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 더보기 버튼 */
+#add {
+  margin-top: 10px;
+}
+
+/* 컨텐트 - 영상 */
+#video {
+  border: 1px solid black;
+  padding: 30px 60px;
+  flex-grow: 1;
+}
+
+/* 컨텐트 제목 요소 */
+.content_title_factor {
+  display: flex;
+  padding: 0 20px;
+}
+
+/* 컨텐트 요소 */
+.content_factor {
+  flex-grow: 1;
+}
+
+#menu4 {
+  border: 1px solid black;
+}
