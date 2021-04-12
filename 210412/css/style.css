@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+
+ul {
+  padding: 0;
+}
+
+/* nav css area */
+nav {
+  height: 70px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+nav div.title-menu {
+  display: flex;
+  align-items: center;
+}
+
+nav div.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+nav div.title i {
+  color: cornflowerblue;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 8px 12px;
+}
+nav ul li:hover {
+  background-color: cornflowerblue;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+nav a.sign-up {
+  /* 크기를 주기 위해서 inline-block으로 변경 */
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  color: cornflowerblue;
+  margin-left: 20px;
+}
+
+nav a.sign-up:hover {
+  background-color: cornflowerblue;
+  color: antiquewhite;
+}
+
+/* main css area */
+main {
+  background-color: rgb(192, 189, 189);
+  border-bottom: 1px solid rgb(128, 125, 125);
+}
+
+main div.title {
+  width: 1000px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  background-color: aliceblue;
+}
+
+main div.subtitle {
+  width: 1000px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  background-color: aliceblue;
+}
+
+/* main > section area */
+section {
+  width: 1000px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+main > section > article {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 16px;
+}
+
+article.price-item div.price-title {
+  border-bottom: 1px solid rgb(128, 125, 125);
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgb(203, 206, 209);
+}
+
+article.price-item div.price-dollar {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+article.price-item ul.price-content {
+  list-style: none;
+}
+
+article.price-item ul.price-content li {
+  text-align: center;
+  font-weight: 600;
+  padding: 3px;
+}
+
+article.price-item a {
+  /* 크기를 주기 위해서 inline-block으로 변경 */
+  display: block;
+  width: 80%;
+  height: 40px;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: 800;
+  color: cornflowerblue;
+  margin: 0 auto;
+}
+
+article.price-item a.price-signup2 {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+article.price-item a.price-signup:hover {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+/* footer css area */
+footer {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+footer div.logo i {
+  color: cornflowerblue;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+footer div.features h3 {
+  margin-top: 0;
+}
+
+footer ul.features-content {
+  list-style: none;
+}
+
+footer ul.features-content li {
+  padding: 3px;
+  font-weight: 600;
+}
