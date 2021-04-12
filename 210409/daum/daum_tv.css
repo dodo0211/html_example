@@ -1,6 +1,12 @@
-/* * {
-  font-size: 8px;
-} */
+* {
+  outline: 1px solid red;
+  outline-offset: -1px;
+  text-align: center;
+}
+
+body {
+  padding: 10px 200px;
+}
 
 /* 헤더 */
 header {
@@ -11,26 +17,26 @@ header {
   margin-bottom: 20px;
 }
 
+header > div:first-child {
+  flex-grow: 1;
+}
+
+header > div:nth-child(2) {
+  flex-grow: 24;
+}
+
+header > div:nth-child(3) {
+  flex-grow: 2;
+}
+
 header > div > span {
   border: 1px solid black;
 }
 
-#logo {
-  font-weight: bold;
-  margin-top: 20px;
-  padding: 10px 30px;
-}
-
-#search {
-  font-weight: bold;
-  margin-top: 20px;
-  padding: 10px 200px;
-}
-
 /* 네비게이션 */
 nav {
-  margin-left: 300px;
   padding: 10px;
+  text-align: left;
 }
 
 nav > span {
@@ -41,12 +47,10 @@ nav > span {
 
 /* 메뉴 */
 #menu {
-  margin: 0px 300px 50px 300px;
   border: 1px solid black;
 }
 
 #menu2 {
-  margin: 0px 300px 300px 300px;
 }
 
 /* 메뉴 속 채널 리스트 전체 */
@@ -68,21 +72,19 @@ li {
   font-weight: bold;
   margin-bottom: 0;
   margin-left: 10px;
+  text-align: left;
 }
 
 /* 인기 오리지널 span div */
 #favorite_origin {
   display: flex;
-  justify-content: space-around;
 }
 
 /* 인기 오리지널 span */
 .favorite_origin {
-  padding: 20px;
-  list-style: none;
-  justify-content: space-around;
+  flex-grow: 1;
   border: 1px solid black;
-  margin: 10px;
+  padding: 10px;
 }
 
 /* 인기 라이브 */
@@ -91,6 +93,7 @@ li {
   font-weight: bold;
   margin-bottom: 0;
   margin-left: 10px;
+  text-align: left;
 }
 
 /* 인기 라이브 span div */
@@ -117,20 +120,20 @@ li {
 /* 메뉴 컨텐트 전체 */
 #menu_content {
   display: flex;
-  justify-content: space-around;
   border: 1px solid black;
   padding: 10px;
 }
 
+#menu_content > span {
+  flex-grow: 1;
+}
+
 /* 메뉴 컨텐트 span - 제목 포함 */
 .content {
-  padding: 30px;
   list-style: none;
   border: 1px solid black;
-  margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 /* 더보기 버튼 */
@@ -141,8 +144,7 @@ li {
 /* 컨텐트 - 영상 */
 #video {
   border: 1px solid black;
-  padding: 30px 60px;
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 /* 컨텐트 제목 요소 */
@@ -156,6 +158,49 @@ li {
   flex-grow: 1;
 }
 
+#menu3 div {
+  text-align: left;
+}
+
+.gd3-s > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gd3-s > div > span {
+  display: flex;
+  flex-grow: 1;
+}
+
+.gd3-s > div > span > span {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.gd3-s > div > span > span:first-child {
+  flex-grow: 1;
+}
+
 #menu4 {
-  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu4 > span:first-child td {
+  padding: 0 40px;
+}
+
+#menu4 > span:nth-child(2) {
+  /* flex-grow: 1; */
+}
+
+#menu5 div {
+  text-align: left;
+}
+
+footer div:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
 }
